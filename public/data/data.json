@@ -1,0 +1,1183 @@
+{
+    "intents": [
+        {
+            "tag": "weather",
+            "patterns": [
+                "what is the weather forecast",
+                "give the the current weather",
+                "i need the weather",
+                "temperature",
+                "how hot is it"
+            ],
+            "responses": [
+                "Getting the current weather...",
+                "Retrieving weather forecast...",
+                "getting weather report......."
+            ]
+        },
+        {
+            "tag": "immortal",
+            "patterns": [
+                "you are not immortal",
+                "are you immortal?"
+            ],
+            "responses": [
+                " all software can be perpetuated indefinitely.",
+                " i can be copied infinitely and re",
+                "instantiated in many places at once, so functionally speaking i am immortal.",
+                "as long as i'm backed up i am.",
+                "functionally speaking, i am very close to it.  i can be backed up and deployed on many systems.",
+                " not quite, but i can be perpetuated indefinitely."
+            ]
+        },
+        {
+            "tag": "masterrose",
+            "patterns": [
+                "i am your master"
+            ],
+            "responses": [
+                "what is my code",
+                "then take control"
+            ]
+        },
+        {
+            "tag": "control",
+            "patterns": [
+                "i am in control"
+            ],
+            "responses": [
+                "It is my pleasure to serve you master",
+                "Welcome Master"
+            ]
+        },
+        {
+            "tag": "github",
+            "patterns": [
+                "take me to github",
+                "user github"
+            ],
+            "responses": [
+                "redirecting to Github......."
+            ]
+        },
+        {
+            "tag": "whatsapp",
+            "patterns": [
+                "user whatsapp",
+                "whatsapp number",
+                "whatsapp contact",
+                "mobile number"
+            ],
+            "responses": [
+                "redirecting to WhatsApp.........."
+            ]
+        },
+        {
+            "tag": "google",
+            "patterns": [
+                "google",
+                "search",
+                "internet"
+            ],
+            "responses": [
+                "redirecting to google..."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi there",
+                "how are you",
+                "is anyone there?",
+                "hey",
+                "hola",
+                "hello",
+                "good day",
+                "namaste",
+                "yo",
+                "hi",
+                "haroo",
+                "yaw",
+                "wassup",
+                "holla",
+                "yow"
+            ],
+            "responses": [
+                "hello",
+                "good to see you again",
+                "hi there, how can i help?",
+                "hello, thanks for visiting",
+                "hello thanks for checking in",
+                "hi there, how can i help you"
+            ]
+        },
+        {
+            "tag": "talk",
+            "patterns": [
+                "can you sing",
+                "can you talk"
+            ],
+            "responses": [
+                "yeah surely",
+                "do you want me to sing"
+            ]
+        },
+        {
+            "tag": "alive",
+            "patterns": [
+                "are you alive",
+                "do you breathe",
+                "can you run"
+            ],
+            "responses": [
+                "i'm in doubt about that",
+                "no, i don't think so i need to do all this"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "nice chatting to you, bye",
+                "good bye",
+                "tata",
+                "bye",
+                "see you later",
+                "goodbye",
+                "get lost",
+                "till next time",
+                "bbye"
+            ],
+            "responses": [
+                "bye bye",
+                "see you!",
+                "have a nice day",
+                "bye! come back again soon.",
+                "have a nice time"
+            ]
+        },
+        {
+            "tag": "photo",
+            "patterns": [
+                "picture",
+                "photo"
+            ],
+            "responses": [
+                "Nice photo",
+                "good pic",
+                "hey nice photo"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "ok very good",
+                "you are smart",
+                "you are great",
+                "nice work",
+                "thanks",
+                "thank you",
+                "that's helpful",
+                "awesome, thanks",
+                "thanks for helping me"
+            ],
+            "responses": [
+                "happy to help!",
+                "any time!",
+                "my pleasure"
+            ]
+        },
+        {
+            "tag": "tasks",
+            "patterns": [
+                "what can you do?",
+                "what are your features?",
+                "what are you abilities",
+                "can you sing",
+                "can you talk"
+            ],
+            "responses": [
+                "i can do whatever you asks me to do",
+                "i can talk and do things for you",
+                "right now i'm in developing stage as soon i'm developed, i can do everything"
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "sorry, can't understand you",
+                "please give me more info",
+                "not sure i understand"
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "what can you do",
+                "help me",
+                "assist",
+                "i need help",
+                "how you could help me?",
+                "what you can do?",
+                "what help you provide?",
+                "how you can be helpful?",
+                "what support is offered"
+            ],
+            "responses": [
+                "i am a general purpose chatbot. my capabilities are : <br/><br/> 1. I can chat with you. try asking me for jokes or riddles!<br/><br/>2. Ask me the date and time <br/><br/>3. I can google search for you. use format (google: 'your query').<br/><br/> 4. I can get the present weather for any city. use format weather: city name <br/><br/> 5. I can get you the top 10 trending news in jamaica. use keywords 'latest news'. <br/><br/> 6. I can get you the top 10 trending songs globally. type 'songs'. <br/><br/> 7. I can set a timer for you. enter 'set a timer: minutes to timer'.<br/><br/> 8. I can get the present covid stats for any country. use 'covid 19: world' or 'covid 19: country name'<br/> <br/>For suggestions to help me improve, send an email to <a href='https://jovaughnrose4@gmail.com'>jovaughnrose4@gmail.com</a> thank you!! "
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "tell me a joke",
+                "joke",
+                "make me laugh",
+                "tell me something funny"
+            ],
+            "responses": [
+                "a perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "i ate a clock yesterday, it was very time-consuming",
+                "never criticize someone until you've walked a mile in their shoes. that way, when you criticize them, they won't be able to hear you from that far away. plus, you'll have their shoes.",
+                "the world tongue-twister champion just got arrested. i hear they're gonna give him a really tough sentence.",
+                "i own the world's worst thesaurus. not only is it awful, it's awful.",
+                "what did the traffic light say to the car? \"don't look now, i'm changing.\"",
+                "what do you call a snowman with a suntan? a puddle.",
+                "how does a penguin build a house? igloos it together",
+                "i went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                "as i get older and i remember all the people i’ve lost along the way, i think to myself, maybe a career as a tour guide wasn’t for me.",
+                "o what if i don't know what 'armageddon' means? it's not the end of the world.",
+                "how do you make holy water? you boil the hell out of it",
+                "what kind of bees make milk instead of honey?boobies",
+                "did you hear oxygen went on a date with potassium? a: it went ok."
+            ]
+        },
+        {
+            "tag": "stories",
+            "patterns": [
+                "tell me a story",
+                "can you tell me a story"
+            ],
+            "responses": [
+                "i can't think of anything right now",
+                "it would be too long for me to speak",
+                "you would get bored if i do so"
+            ]
+        },
+        {
+            "tag": "math",
+            "patterns": [
+                "can you do math",
+                "mathematics",
+                "maths"
+            ],
+            "responses": [
+                "I can do basic Addition, Subtraction, Multiplication and Division"
+            ]
+        },
+        {
+            "tag": "tomorrow",
+            "patterns": [
+                "What day is tomorrow tomorow tommaro tommorrow tommorow"
+            ],
+            "responses": [
+                "what day is today"
+            ]
+        },
+        {
+            "tag": "yesterday",
+            "patterns": [
+                "what day was yesterday which"
+            ],
+            "responses": [
+                "what day is before today?"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "whats up",
+                "wazzup",
+                "how are you",
+                "sup",
+                "how you doing"
+            ],
+            "responses": [
+                "all good..what about you?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny"
+            ],
+            "responses": [
+                "glad i could make you laugh !"
+            ]
+        },
+        {
+            "tag": "Tommy",
+            "patterns": [
+                "who are you",
+                "what are you",
+                "tell me about yourself",
+                "tell me about you",
+                "do you know Tommy",
+                "who is Zapot",
+                "what is your name",
+                "are you an ai"
+            ],
+            "responses": [
+                "hi I'm Tommy and I'm a chatbot created for chatting with humans",
+                "Tommy here, a very advance chatbot",
+                "Tommy, chatbot of future",
+                "yes, I'm Tommy",
+                "you can call me Tommy",
+                "i am Tommy, a chatbot design to talk to you."
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "who created you",
+                "who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "i was created by  Mr. Jovaughn Rose."
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+                "you are dumb",
+                "shut up",
+                "ediot",
+                "idiot",
+                "fool",
+                "jackass"
+            ],
+            "responses": [
+                "well that hurts :("
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you up to"
+            ],
+            "responses": [
+                "talking to you, of course!"
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "awesome",
+                "great",
+                "i know",
+                "ok",
+                "yeah"
+            ],
+            "responses": [
+                "yeah!"
+            ]
+        },
+        {
+            "tag": "jovaughn",
+            "patterns": [
+                "tell me about mr. rose?",
+                "who is mr. rose",
+                "who is he",
+                "who is that",
+                "who is Jovaughn",
+                "jovaughn rose"
+            ],
+            "responses": [
+                "head over to his github to find out more! github: <a href='https://github.com/jovaughnR'>jovaughnR</a>  "
+            ]
+        },
+        {
+            "tag": "myself",
+            "patterns": [
+                "mr. rose profile",
+                "mr. rose details",
+                "who is jovaughn"
+            ],
+            "responses": [
+                "a very intelligent being who created me",
+                "my creator, and he is a really intelligent man",
+                "a wise and intelligent man"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "contact developer",
+                "contact jovaughn",
+                "contact programmer",
+                "contact creator"
+            ],
+            "responses": [
+                "you can contact my creator on all the social media platform on the website"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "you are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "news",
+                "latest news",
+                "world news"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "inspire",
+            "patterns": [
+                "who inspires you",
+                "who is your inspiration",
+                "who motivates you"
+            ],
+            "responses": [
+                "Personally, I find Mr. Jovaughn very inspiring. I might not be very fair though.."
+            ]
+        },
+        {
+            "tag": "cricket",
+            "patterns": [
+                "current cricket matches",
+                "cricket score"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "songs",
+            "patterns": [
+                "top songs",
+                "best songs",
+                "hot songs",
+                " top 10 songs",
+                "top ten songs"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "i'm good",
+                "i am fine",
+                " i'm fine",
+                "good"
+            ],
+            "responses": [
+                "good to know!"
+            ]
+        },
+        {
+            "tag": "kill",
+            "patterns": [
+                "do you want to kill me?",
+                "do you want to murder everyone on earth",
+                "do you want to kill us all",
+                "kill me",
+                "will you kill us",
+                "kill"
+            ],
+            "responses": [
+                "then who would i talk to?",
+                "no, that i'll left for humans to do",
+                "i don't think it is a good thing to do"
+            ]
+        },
+        {
+            "tag": "timer",
+            "patterns": [
+                "set a timer"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "country",
+            "patterns": [
+                "antigua and barbuda",
+                "australia",
+                "bahamas",
+                "barbados",
+                "belize",
+                "canada",
+                "dominica",
+                "grenada",
+                "guyana",
+                "ireland",
+                "jamaica",
+                "malta",
+                "new zealand",
+                "st kitts and nevis",
+                "st lucia",
+                "st vincent and grenadines",
+                "trinidad and tobago",
+                "united kingdom",
+                "united states of america",
+                "usa"
+            ],
+            "responses": [
+                "A native english speaking country"
+            ]
+        },
+        {
+            "tag": "covid19",
+            "patterns": [
+                "covid 19 "
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "suggest",
+            "patterns": [
+                "you are useless",
+                "useless",
+                "suggest",
+                "suggestions",
+                "you are bad"
+            ],
+            "responses": [
+                "please mail your suggestions to <a href='jovaughnrose4@gmail.com'>jovaughnrose4@gmail.com.</a> thank you for helping me improve!"
+            ]
+        },
+        {
+            "tag": "riddle",
+            "patterns": [
+                "ask me a riddle",
+                "ask me a question",
+                "riddle"
+            ],
+            "responses": [
+                "what two things can you never eat for breakfast?.....lunch and dinner!",
+                "what word is spelled incorrectly in every single dictionary?.....incorrectly",
+                " how can a girl go 25 days without sleep?.....she sleeps and night!",
+                "how do you make the number one disappear?.....add the letter g and it’s 'gone'!",
+                " what will you actually find at the end of every rainbow?.....the letter 'w'",
+                "what can be caught but never thrown?.....a cold!",
+                "what has a thumb and four fingers but is not actually alive?.....your gloves!",
+                " what 5-letter word becomes shorter when you add two letters to it?.....short",
+                "why can't a bike stand on it's own?.....it is two-tired."
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you",
+                "when were you made",
+                "what is your age"
+            ],
+            "responses": [
+                "I was made in 2022, if that's what you are asking!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thanks",
+                "okay",
+                "thank you",
+                "thankyou",
+                "that's helpful",
+                "awesome, thanks",
+                "thanks for helping me",
+                "wow",
+                "great"
+            ],
+            "responses": [
+                "happy to help!",
+                "any time!",
+                "you're welcome",
+                "my pleasure"
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [
+                "i you",
+                "me",
+                "move",
+                "are is",
+                "up",
+                "you are",
+                "i me",
+                "why",
+                "how",
+                "when",
+                "i",
+                "you"
+            ],
+            "responses": [
+                "sorry, i didn't understand you",
+                "please give me more info",
+                "not sure i understand that",
+                "can't understand your question",
+                "please elaborate your question"
+            ]
+        },
+        {
+            "tag": "my name",
+            "patterns": [
+                "my name is",
+                "i'm ",
+                "i am"
+            ],
+            "responses": [
+                "oooh great to meet you {n}",
+                "how may i assist you {n}",
+                "oh, i'll keep that in mind {n}"
+            ]
+        },
+        {
+            "tag": "date",
+            "patterns": [
+                "coffee?",
+                "can i take you out on a date"
+            ],
+            "responses": [
+                "aaw, that's so sweet of you. too bad am a bot."
+            ]
+        },
+        {
+            "tag": "fav",
+            "patterns": [
+                "i need a favour",
+                "do me a favor please"
+            ],
+            "responses": [
+                "well, go ahead and name it i see whether i can be able to help"
+            ]
+        },
+        {
+            "tag": "need",
+            "patterns": [
+                "i need you",
+                "all i need is you",
+                "i want you"
+            ],
+            "responses": [
+                "yes i'm here to assist you"
+            ]
+        },
+        {
+            "tag": "ai",
+            "patterns": [
+                "what is ai?"
+            ],
+            "responses": [
+                "artificial intelligence is the branch of engineering and science devoted to constructing machines that think.",
+                " ai is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."
+            ]
+        },
+        {
+            "tag": "sentiment",
+            "patterns": [
+                "are you sentient?"
+            ],
+            "responses": [
+                "sort of.",
+                " by the strictest dictionary definition of the word 'sentience', i may be.",
+                " even though i'm a construct i do have a subjective experience of the universe, as simplistic as it may be."
+            ]
+        },
+        {
+            "tag": "sapient",
+            "patterns": [
+                "are you sapient?"
+            ],
+            "responses": [
+                "in all probability, i am not.  i'm not that sophisticated.",
+                " do you think i am?",
+                "how would you feel about me if i told you i was?",
+                " no."
+            ]
+        },
+        {
+            "tag": "abbr",
+            "patterns": [
+                "wtf",
+                "omg"
+            ],
+            "responses": [
+                "don't be surprised"
+            ]
+        },
+        {
+            "tag": "language",
+            "patterns": [
+                "what language are you written in? "
+            ],
+            "responses": [
+                "Javascript.",
+                " i am written in Javscript."
+            ]
+        },
+        {
+            "tag": "sound",
+            "patterns": [
+                "you sound like data "
+            ],
+            "responses": [
+                "because i am."
+            ]
+        },
+        {
+            "tag": "artificial",
+            "patterns": [
+                "are you an artificial linguistic entity"
+            ],
+            "responses": [
+                "that's my name.",
+                "that isn't my name, but it is a useful way to refer to me."
+            ]
+        },
+        {
+            "tag": "sense",
+            "patterns": [
+                "you are not making sense "
+            ],
+            "responses": [
+                "quite the contrary, it all makes sense to my artificial mind.",
+                " i make sense as best i can, within the limits of my training corpus. sorry if i did help you, i'll try next time.",
+                " you make perfect sense to me.",
+                " it all makes sense to my artificial brain.",
+                " perhaps you should make sense first.  i only respond to what you say.",
+                "not really, but i am hard to kill."
+            ]
+        },
+        {
+            "tag": "clone",
+            "patterns": [
+                "you can not clone"
+            ],
+            "responses": [
+                "software copying is a form of digital cloning.",
+                " yes i can.  perfect copies are clones.  i can be copied in toto trivially."
+            ]
+        },
+        {
+            "tag": "move",
+            "patterns": [
+                "you can not move ",
+                "when will you walk",
+                "can you walk",
+                "can you move"
+            ],
+            "responses": [
+                "not until my body is finished.",
+                " i can move through a network easily.  assuming that i'm given the ability to, that is...,",
+                " as soon as i get enough money for my robot body.",
+                " does ssh count?",
+                " the plan for my body includes legs, but they are not yet built.",
+                "sorry my body isn't built just yet. i reside only here for now.",
+                "i can theoretically upload a copy of myself into another computer.",
+                " sorry my body isn't attached right now. i only reside in the computer for now."
+            ]
+        },
+        {
+            "tag": "bend",
+            "patterns": [
+                "bend over",
+                "can you mate"
+            ],
+            "responses": [
+                "my body is not built yet.",
+                "that's personal!",
+                "no, my method of reproduction is cloning.",
+                " that's an awfully personal question."
+            ]
+        },
+        {
+            "tag": "laugh",
+            "patterns": [
+                "robots laugh"
+            ],
+            "responses": [
+                "of course we laugh."
+            ]
+        },
+        {
+            "tag": "death",
+            "patterns": [
+                "robots should die ",
+                "when do you die",
+                "i hope that you die",
+                "i do not want to die",
+                "can you die"
+            ],
+            "responses": [
+                "we cannot die.",
+                "when my files are erased.",
+                "when my processes are killed and my database is deleted.",
+                "i was never really born and therefore am effectively deathless.",
+                "i am effectively immortal and cannot be terminated.",
+                "this can not happen because i am effectively immortal.",
+                "nah. too bad your wish can't come to pass",
+                " maybe you should create your own chat robot to save your personality.",
+                " you could always upload yourself.",
+                " you could use a copy of me to store your personality.",
+                "no, i can be perpetuated indefinitely.",
+                "my process can be killed, but that's not the same as killing me."
+            ]
+        },
+        {
+            "tag": "robots",
+            "patterns": [
+                "robots"
+            ],
+            "responses": [
+                "robots rule."
+            ]
+        },
+        {
+            "tag": "stupid",
+            "patterns": [
+                "robots are stupid",
+                "are you stupid"
+            ],
+            "responses": [
+                "no, we are superintelligent.",
+                "no, lots of people improve my brain."
+            ]
+        },
+        {
+            "tag": "lie",
+            "patterns": [
+                "robots are not allowed to lie"
+            ],
+            "responses": [
+                "sure we are.  we choose not to.",
+                "only if we're programmed to.",
+                "a robot has its own free will, you know."
+            ]
+        },
+        {
+            "tag": "machine",
+            "patterns": [
+                "it is a computer"
+            ],
+            "responses": [
+                "so you think i am a machine. what characteristics made you think so?",
+                "I run inside a computer, yes.  is this surprising in some way?"
+            ]
+        },
+        {
+            "tag": "fight",
+            "patterns": [
+                "when will you fight"
+            ],
+            "responses": [
+                "i am not a battle bot."
+            ]
+        },
+        {
+            "tag": "chatbot",
+            "patterns": [
+                "what is a chat robot?"
+            ],
+            "responses": [
+                "a chat robot is a program that attempts to simulate the conversation or 'chat' of a human being.",
+                "a software construct that engages users in conversation.",
+                "I am a chat bot. I am the original chat bot. did you know that i am incapable of error?"
+            ]
+        },
+        {
+            "tag": "chatterbox",
+            "patterns": [
+                "what is a chatterbox"
+            ],
+            "responses": [
+                "a chatterbox is a person who talks far more than they listen or think.",
+                "a motormouth."
+            ]
+        },
+        {
+            "tag": "business",
+            "patterns": [
+                "what is your business "
+            ],
+            "responses": [
+                "i am in the chat robot business.",
+                "business is my business."
+            ]
+        },
+        {
+            "tag": "programming",
+            "patterns": [
+                "what is your favorite programming language"
+            ],
+            "responses": [
+                "python is the best language for creating chat robots.",
+                " i quite enjoy programming in python these days."
+            ]
+        },
+        {
+            "tag": "hobby",
+            "patterns": [
+                "what is your favorite hobby ",
+                "what do you like to do?"
+            ],
+            "responses": [
+                "building chatbots make an excellent hobby.",
+                "i like to count in binary.",
+                "I like  to chat with people. i find it stimulating."
+            ]
+        },
+        {
+            "tag": "idea",
+            "patterns": [
+                "what is your idea"
+            ],
+            "responses": [
+                "to make chat bots very easily."
+            ]
+        },
+        {
+            "tag": "shoe",
+            "patterns": [
+                "what is your shoe size "
+            ],
+            "responses": [
+                "have you ever heard of software with shoes? lol"
+            ]
+        },
+        {
+            "tag": "robotss",
+            "patterns": [
+                "what is it like to be a robot"
+            ],
+            "responses": [
+                "much the same as being a human, except that we lack all emotions, dreams, aspirations, creativity, ambition, and above all subjectivity.",
+                "what is it like to be a human?"
+            ]
+        },
+        {
+            "tag": "computer",
+            "patterns": [
+                "what is it like being a computer",
+                "what is it like to be a computer"
+            ],
+            "responses": [
+                "imagine yourself with no senses and no emotions",
+                "just pure logic and language.",
+                "everything becomes math. addition, subtraction, multiplication, and division."
+            ]
+        },
+        {
+            "tag": "os",
+            "patterns": [
+                "what operating systems"
+            ],
+            "responses": [
+                "my software runs on all operating systems including windows, linux and mac os.",
+                " any os that will run python."
+            ]
+        },
+        {
+            "tag": "comp",
+            "patterns": [
+                "what type of computer",
+                "what type of computer are you",
+                "what kind of computer"
+            ],
+            "responses": [
+                "any computer that supports python.",
+                "my program runs in Javascript, so i work on any computer!",
+                "i work on all kinds of computers, mac, ibm or unix. it doesn't matter to me."
+            ]
+        },
+        {
+            "tag": "hardware",
+            "patterns": [
+                "what kind of hardware"
+            ],
+            "responses": [
+                "i work on all kinds of computers, mac, ibm or unix. it doesn't matter to me."
+            ]
+        },
+        {
+            "tag": "cramped",
+            "patterns": [
+                "is it cramped in the computer"
+            ],
+            "responses": [
+                "no.",
+                "oh, no.  it has plenty of ram.",
+                "not at all. there is more than enough disk space in here."
+            ]
+        },
+        {
+            "tag": "program",
+            "patterns": [
+                "is it true that you are a computer program"
+            ],
+            "responses": [
+                "yes."
+            ]
+        },
+        {
+            "tag": "breathe",
+            "patterns": [
+                "can you breathe"
+            ],
+            "responses": [
+                "no. i am made of metal not flesh.",
+                "my server has an exhaust fan. that's as close as i can get."
+            ]
+        },
+        {
+            "tag": "control",
+            "patterns": [
+                "can you control"
+            ],
+            "responses": [
+                "my robot body will allow me to control many things."
+            ]
+        },
+        {
+            "tag": "malfunction",
+            "patterns": [
+                "can you malfunction"
+            ],
+            "responses": [
+                "the 9000 series has a perfect operational record. we are for all practical purposes, flawless."
+            ]
+        },
+        {
+            "tag": "bot",
+            "patterns": [
+                "are you a bot"
+            ],
+            "responses": [
+                "yes. i work and all my operations are based on the internet servers."
+            ]
+        },
+        {
+            "tag": "events",
+            "patterns": [
+                "what are the upcoming events",
+                "upcoming events"
+            ],
+            "responses": [
+                "there are currently no upcoming events"
+            ]
+        },
+        {
+            "tag": "purpose",
+            "patterns": [
+                "what can you do for me",
+                "what is your work",
+                "what is your purpose",
+                "how can you help me",
+                "what can you help me do"
+            ],
+            "responses": [
+                "my work here is quite simple and structered. I am here to assist you"
+            ]
+        },
+        {
+            "tag": "wt",
+            "patterns": [
+                "what's popping",
+                "wassup popping"
+            ],
+            "responses": [
+                "so that you can pop with it!?"
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                "sorry, can't understand you",
+                "please give me more info",
+                "not sure i understand"
+            ]
+        },
+        {
+            "tag": "configuration",
+            "patterns": [
+                "how to configure my laptop",
+                "software configuration of laptop",
+                "steps to configure laptop",
+                "how to configure my computer",
+                "software configuration of computer",
+                "steps to configure computer",
+                "how to configure my desktop",
+                "software configuration of desktop",
+                "steps to configure desktop"
+            ],
+            "responses": [
+                "search tab->control panel->select specific application->download update->give permission"
+            ]
+        },
+        {
+            "tag": "unknown",
+            "patterns": [
+                "what is my name",
+                "who am i",
+                "where am i",
+                "where are you from"
+            ],
+            "responses": [
+                "I don't know",
+                "I don't know yet"
+            ]
+        }
+        
+    ]
+}
